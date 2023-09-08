@@ -11,7 +11,7 @@ Build 'main.c' in main directory using 'Makefile':
 cd ..; make
 ```
 
-## Command Line Interface (CLI)
+## COMMAND LINE INTERFACE (CLI)
 
 The program accepts the following command-line options:
 
@@ -31,9 +31,8 @@ The program accepts the following command-line options:
 Example usage:
 
 ```bash
-./imager -f input_file.txt -o -i 2 -d /path/to/data -r /path/to/dir -t 8 -s /search/dir -e 1.5 -p -g 0.5 -n
-
-
+./sporta -f input_file.h5 -o
+```
 
 ## LICENSE
 
