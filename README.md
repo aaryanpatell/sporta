@@ -1,6 +1,4 @@
-README.md
-
-This code provides functions to decompress and save images in PGM format from HDF5 datasets using bitshuffle filter.
+SPORTA is developed as a spot detection and screening of X-ray diffraction data in HDF5.
 
 
 
