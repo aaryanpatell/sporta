@@ -27,6 +27,8 @@ The program accepts the following command-line options:
 - `-p`: Enable histogram through GNUPLOT.
 - `-g <sigma>`: Set gaussian filtering sigma value.
 - `-n`: Display the notes, tips, and comments.
+- 
+## USAGE
 
 Example usage and arugment passing:
 
