@@ -11,6 +11,30 @@ Build 'main.c' in main directory using 'Makefile':
 cd ..; make
 ```
 
+## Command Line Interface (CLI)
+
+The program accepts the following command-line options:
+
+- `-h`: Display the help message.
+- `-f <file>`: Specify the input file.
+- `-o`: Enable output.
+- `-i <index>`: Set the index to a specified value.
+- `-d <data>`: Set the data to a specified value.
+- `-r <dir>`: Enable traversing on path `<dir>`.
+- `-t <value>`: Set the threshold scale factor to a specified value.
+- `-s <dir>`: Set the search directory to a specified value.
+- `-e <value>`: Set the ring exclusion proximity radius.
+- `-p`: Enable histogram through GNUPLOT.
+- `-g <sigma>`: Set gaussian filtering sigma value.
+- `-n`: Display the notes, tips, and comments.
+
+Example usage:
+
+```bash
+./imager -f input_file.txt -o -i 2 -d /path/to/data -r /path/to/dir -t 8 -s /search/dir -e 1.5 -p -g 0.5 -n
+
+
+
 ## LICENSE
 
 MIT LICENSE
