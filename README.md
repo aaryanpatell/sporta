@@ -56,5 +56,5 @@ SOFTWARE.
 
 Acknowledgments:
 Canadian Light Source 
-Industrial Science Group (CLS)
-Denis Spasyuk (CLS)
+, Industrial Science Group (CLS)
+, Denis Spasyuk (CLS)
