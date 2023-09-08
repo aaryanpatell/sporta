@@ -55,6 +55,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 Acknowledgments:
-Canadian Light Source 
-, Industrial Science Group (CLS)
-, Denis Spasyuk (CLS)
+Canadian Light Source, Industrial Science Group (CLS), Denis Spasyuk (CLS)
