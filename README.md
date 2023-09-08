@@ -2,47 +2,29 @@ README.md
 
 This code provides functions to decompress and save images in PGM format from HDF5 datasets using bitshuffle filter.
 
-## Code Overview
 
-The code consists of several functions and data structures. Here's an overview of each component:
-
-### Data Structures
-
-1. `image`: Represents an image with properties such as data, width, height, and sigma.
-2. `Hdf5Header`: Stores information related to the HDF5 header, including distance, wavelength, beam center, and size.
-3. `Spot`: Represents a connected component in the image, containing a label, number of pixels, and arrays to store the coordinates of the pixels.
-
-## Requirements
-* C compiler
-* HDF5 library
-* Bitshuffle HDF5 filter library [included]
-
-## Installation
-
-1. Install the HDF5 library. For example, on Ubuntu, you can use the following command:
-
-```css
-sudo apt-get install libhdf5-dev
-```
-or
-
-```css
-sudo yum install hdf5-devel.x86_64
-```
-
-2. Download the `bshuf_h5filter.h` and `bshuf_h5filter.c` files and place them in the `src` directory. Ensure 'src' is placed within the same folder as the program.
-
-3. To compile the program, use the 'Makefile' using the following command:
-
-```css
-make
-```
-
-## Usage
-
-
-Note that `width` and `height` must be provided to `save_image_as_pgm`.
 
 ## License
 
-TO BE DECIDED
+MIT LICENSE
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Acknowledgments:
+Canadian Light Source 
+Industrial Science Group (CLS)
+Denis Spasyuk (CLS)
