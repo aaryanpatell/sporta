@@ -3,13 +3,13 @@ SPORTA is developed as a spot detection and screening of X-ray diffraction data 
 ## INSTALL
 
 Build dependencies in 'src' directory through the 'Makefile':
-'''css
+```bash
 cd src; make
-'''
+```
 Build 'main.c' in main directory using 'Makefile':
-'''css
+```css
 cd ..; make
-'''
+```
 
 ## LICENSE
 
