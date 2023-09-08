@@ -1,4 +1,4 @@
-SPORTA is developed as a spot detection and screening of X-ray diffraction data for HDF5. The program was originally developed for MX Industry at the Canadian Light Source (CLS), but has been open-sourced for extended public use.
+SPORTA is developed as a spot detection and screening software for X-ray diffraction data for HDF5. The program was originally developed for MX Industry at the Canadian Light Source (CLS), but has been open-sourced for extended public use.
 
 ## INSTALL
 
