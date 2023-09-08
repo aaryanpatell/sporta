@@ -28,7 +28,7 @@ The program accepts the following command-line options:
 - `-g <sigma>`: Set gaussian filtering sigma value.
 - `-n`: Display the notes, tips, and comments.
 
-Example usage:
+Example usage and arugment passing:
 
 ```bash
 ./sporta -f input_file.h5 -o
