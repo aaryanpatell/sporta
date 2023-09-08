@@ -7,7 +7,7 @@ Build dependencies in 'src' directory through the 'Makefile':
 cd src; make
 ```
 Build 'main.c' in main directory using 'Makefile':
-```css
+```bash
 cd ..; make
 ```
 
