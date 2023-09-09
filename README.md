@@ -2,7 +2,7 @@ SPORTA is developed as a spot detection and screening software for X-ray diffrac
 
 ## INSTALL
 
-Build dependencies in 'src' directory through the 'Makefile':
+Build dependencies in 'src' directory using 'Makefile':
 ```bash
 cd src; make
 ```
