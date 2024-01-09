@@ -79,7 +79,6 @@ for d in dirs:
     intensity.append(lib.getIntensity(header))
     ice.append(lib.getIce(header))
 
-# Your previous code ...
 
 # Make sure all the lists have the same length
 if len(resolution) == len(distance) == len(wavelength) == len(threshold) == len(radius_90_percent) == len(num_spots) == len(intensity) == len(ice):
